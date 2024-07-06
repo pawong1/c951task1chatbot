@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Hi! My name is Career Bot the Career counselor. Type "hello" for us to get started.</template>
+  </category>
+  
+    <category>
+        <pattern>
+            hello
+        </pattern>
+        <template>
+            Let's get started determining your preferred career path. Would you like to help businesses design interactive and informative websites. Type "yes" or "no".
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <that>TYPE YES OR NO</that>
+        <template>I recommend the Web Developer career path!</template>
+    </category>
+ 
+    <category>
+        <pattern>NO</pattern>
+        <that>TYPE YES OR NO</that>
+        <template>Type yes or no. How about hardening systems from cyber threats and assessing for vulnerabilities?</template>
+    </category>
+         
+    <category>
+        <pattern>YES</pattern>
+        <that>HOW ABOUT HARDENING SYSTEMS FROM CYBER THREATS AND ASSESSING FOR VULNERABILITIES</that>
+        <template>I recommend the Cyber Security Analyst career path!</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>HOW ABOUT HARDENING SYSTEMS FROM CYBER THREATS AND ASSESSING FOR VULNERABILITIES</that>
+        <template>Type yes or no. Does creating mobile apps and working in team environments interest you?</template>
+    </category>
+    
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DOES CREATING MOBILE APPS AND WORKING IN TEAM ENVIRONMENTS INTEREST YOU</that>
+        <template>I recommend the Mobile App Developer career path!</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DOES CREATING MOBILE APPS AND WORKING IN TEAM ENVIRONMENTS INTEREST YOU</that>
+        <template>Type yes or no. Does creating databases and visualizations for data appeal to you?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DOES CREATING DATABASES AND VISUALIZATIONS FOR DATA APPEAL TO YOU</that>
+        <template> I recommend the Data Scientist career path!</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DOES CREATING DATABASES AND VISUALIZATIONS FOR DATA APPEAL TO YOU</that>
+        <template>Type yes or no. Does working in a team environment to create a video game interest you?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DOES WORKING IN A TEAM ENVIRONMENT TO CREATE A VIDEO GAME INTEREST YOU</that>
+        <template>I recommend the Game Developer career path!</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DOES WORKING IN A TEAM ENVIRONMENT TO CREATE A VIDEO GAME INTEREST YOU</that>
+        <template>It seems that we've ran out of options. Let's try conducting this questionaire again. Type hello again to begin.</template>
+    </category>
+
+</aiml>
+
+
+
